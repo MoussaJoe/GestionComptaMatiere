@@ -1,0 +1,96 @@
+
+Button,#btnImprimer{
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-font-family:"Times New Roman";
+    -fx-border-color:grey;
+
+}
+#btn,#btnEnregistrer{
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 19px;
+    -fx-font-family:"Times New Roman";
+    -fx-border-color:grey;
+}
+#tf{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family:"Bodoni MT Condensed";
+    -fx-font-color: red;
+}
+#lab{
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+    -fx-font-family:"Bodoni MT Condensed";
+}
+#labBambey{
+    -fx-font-size: 55px;
+    -fx-font-weight: bold;
+    -fx-font-family:"Times New Roman";
+}
+Button:hover,#btnEnregistrer:hover,#btnImprimer:hover,#btn:hover{
+    -fx-background-color: grey;
+}
+
+
+#bit{
+    -fx-background-image: url("background.jpg");
+
+}
+#hb2{
+    -fx-background-image: url("background.jpg");
+}
+#hb1{
+    -fx-background-color: white;
+    -fx-height:600px;
+}
+#hb1:hover{
+    -fx-background-color: grey;
+
+}
+#men{
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-font-family: "Times New Roman";
+
+}
+#bp{
+    -fx-background-image: url("fournisseur.jpg");
+    -fx-background-repeat: no-repeat;
+}
+#bp1{
+    -fx-background-image: url("materiel3.jpg");
+    -fx-background-repeat: no-repeat;
+}
+#tableau{
+    -fx-font-style: italic;
+    -fx-font-size: 19px;
+    -fx-font-family: "Times New Roman";
+    -fx-text-alignment: center;
+}
+#invantaire{
+    -fx-background-image: url("inventaire.jpg");
+    -fx-background-repeat: no-repeat;
+}
+#compte{
+    -fx-background-image: url("compte1_3.jpg");
+    -fx-background-repeat: no-repeat;
+}
+#imp{
+    -fx-background-image: url("impression.jpg");
+    -fx-background-repeat: no-repeat;
+}
+#labForm{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family:"Bodoni MT Condensed";
+}
+#tfForm{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family:"Bodoni MT Condensed";
+    -fx-font-color: red;
+}

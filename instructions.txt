@@ -1,0 +1,23 @@
+Instruction :
+
+1-Avoir WampServer
+2-executer le fichier gestioncomptamatiere.sql dans MySQL ou phpMyAdmin
+3-Ouvrir le dossier "GestionComptaMatiere" ensuite ouvrir "dist" ensuite excuter l'application "GCM".
+
+
+
+
+
+Cette application aide dans le comptabilite de matiere.
+
+Description : Comme dans plusieurs structures, un travail en amont est effectué avant que le
+matériel ne soit livré au niveau de la comptabilité matière. Dans un premier temps chaque service
+de l’Universite fera ses expressions de besoin qu’il va envoyer à la cellule de passation de
+marché. Les autorités feront un arbitrage pour maintenir ou pas les besoins de chaque service. En
+fonction de la décision retenue, le matériel est classé par type avant de lancé le marché afin de
+retenir le concurrent le plus satisfaisant. Une fois le fournisseur choisi, ce dernier va venir livrer
+le matériel au niveau de la comptabilité matière. C’est à partir de ce moment que notre
+application entre en jeu. Le concepteur doit ranger le matériel par type afin de le distribuer à
+chaque service demandeur. Le service peut ne pas récupérer tout son matériel, dans ce cas le
+restant est stocké dans un magasin et ce service pourra à tout moment venir le récupérer. Un
+inventaire est effectué chaque année pour recenser l’état des matériels (bon, défectueux, perdu).
